@@ -1,0 +1,26 @@
+.footer {
+    background: #000;
+    .share {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .credit {
+        font-size: 2rem;
+        margin: 2rem auto;
+        color: #fff;
+        font-weight: 600;
+        justify-content: center;
+        text-align: center;
+        i {
+            font-size: 2rem;
+            color: $red;
+        }
+        span {
+            font-size: 2rem;
+            color: gold;
+            font-weight: 700;
+        }
+    }
+}
